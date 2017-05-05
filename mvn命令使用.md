@@ -78,6 +78,9 @@ public class HelloWorldTest {
 	<groupId>com.juvenxu.mvnbook</groupId>
 	<artifactId>HelloWord</artifactId>
 	<version>1.0-SNAPSHOT</version>
+Mvn test:
+用mvn进行单元测试
+另外在pom文件中scope为test表示依赖项目仅仅参与测试相关的工作，包括测试代码的编译，执行。
 	<name>Maven Hello World Project</name>
 
 	<dependencies>
@@ -123,6 +126,25 @@ public class HelloWorldTest {
 <br>
 #### Mvn Compile
 类似使用ide对java项目进行编译成class文件<br>
-![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令3.png) <br>
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令3.png)
+<br>
 生成target目录
+<br>
 ![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令4.png) 
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令5.png) 
+
+#### Mvn test
+用mvn进行单元测试<br>
+另外在pom文件中scope为test表示依赖项目仅仅参与测试相关的工作，包括测试代码的编译，执行。<br>
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令6.png)
+
+#### Mvn package
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令7.png)
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令8.png)<br>
+这里有两个包是因为在pom文件中加maven-shade-plugin ，其中一个jar包在MET INF中记录了可提供执行的main 方法路径。两个包的差别也仅此而已	
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令9.png)<br>
+`注：maven-shade-plugin在pom中也有严格的位置规范，一般是project ->build ->plugins`
+#### Mvn install
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令10.png)
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令11.png)
+
