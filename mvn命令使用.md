@@ -78,9 +78,6 @@ public class HelloWorldTest {
 	<groupId>com.juvenxu.mvnbook</groupId>
 	<artifactId>HelloWord</artifactId>
 	<version>1.0-SNAPSHOT</version>
-Mvn test:
-用mvn进行单元测试
-另外在pom文件中scope为test表示依赖项目仅仅参与测试相关的工作，包括测试代码的编译，执行。
 	<name>Maven Hello World Project</name>
 
 	<dependencies>
@@ -119,6 +116,7 @@ Mvn test:
 
 </project>
 
+
 ```
 
 `注：测试用的项目中的文件以及文件夹包括pom文件是需要按规定目录格式存放的。以便mvn命令能正确读到。即便用eclipse 创建的maven项目也是这样格式`<br>
@@ -148,3 +146,9 @@ Mvn test:
 ![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令10.png)
 ![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令11.png)
 
+### 结尾
+以上命令在eclipse组装了m2eclipe里面也可以看到<br>
+项目(pom.xml)-->右键-->run as <br>
+命令能否执行成功前提是在jre有相应配置：<br>
+-Dmaven.multiModuleProjectDirectory=$M2_HOME
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令12.png)
