@@ -29,6 +29,6 @@ Mvn clean compile 先清除后编译
 ### 测试项目：
 \model\src\main\java\com\juvenxu\mvnbook\helloworld\ HelloWord.java<br>
 \model\src\test\java\com\juvenxu\mvnbook\helloworld\ HelloWorldTest.java
-![github](https://github.com/hhua161031/ORACLE/blob/master/image/冷备份1.png) 
+![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令1.png) 
 
 
