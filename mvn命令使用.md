@@ -1,6 +1,6 @@
 mvn命令使用
 ============
-### 开篇
+### 开篇：
 从maven 实战这本书里面将maven 定义为项目构建工具，具体讲是能将项目编译、测试、打包等集成一身，是一个强大工具。
 以前用maven只是用到它的对第三方类库的管理功能，对它的认识也不是很全面。通过maven手动对项目进行构建,加强对maven发的认识。
 <br>
@@ -146,7 +146,7 @@ public class HelloWorldTest {
 ![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令10.png)
 ![github](https://github.com/hhua161031/Maven/blob/master/img/mvn命令11.png)
 
-### 结尾
+### 结尾：
 以上命令在eclipse组装了m2eclipe里面也可以看到<br>
 项目(pom.xml)-->右键-->run as <br>
 命令能否执行成功前提是在jre有相应配置：<br>
